@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 200px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
